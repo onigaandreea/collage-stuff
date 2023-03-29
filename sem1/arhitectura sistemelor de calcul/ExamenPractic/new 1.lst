@@ -1,0 +1,103 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fprintf, scanf, fopen, fclose, printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  import fprintf msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  import printf msvcrt.dll
+    15                                  
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18 00000000 00                          m db 0
+    19 00000001 00                          n db 0
+    20 00000002 00                          numar db 0
+    21 00000003 256400                      format_citire db "%d" , 0
+    22 00000006 256400                      format_scriere db "%d", 0
+    23 00000009 6F75747075742E7478-         nume_fisier db "output.txt", 0 
+    23 00000012 7400               
+    24 00000014 7700                        mod_acces db "w", 0 
+    25 00000016 FFFFFFFF                    descriptor dd -1   ;aici vom salva descriptorul fisierului
+    26                                      len equ 100       ; numarul maxim de elemente        
+    27                                  
+    28                                  ; our code starts here
+    29                                  segment code use32 class=code
+    30                                      start:
+    31                                          ; apelam functia fopen pentru a desschide fisierul 
+    32                                          ;eax = fopen(nume_fisier, mod_acces)
+    33 00000000 68[14000000]                    push dword mod_acces     
+    34 00000005 68[09000000]                    push dword nume_fisier
+    35 0000000A FF15[00000000]                  call [fopen]
+    36 00000010 83C408                          add esp, 4*2    ; eliberam parametrii de pe stiva
+    37                                          
+    38 00000013 A3[16000000]                    mov [descriptor], eax   ; salvam valoarea returnata de fopen in variabila descriptor 
+    39                                          
+    40 00000018 83F800                          cmp eax, 0          ; verificam daca functia fopen a creat cu succes fisierul (daca EAX != 0)
+    41 0000001B 0F849A000000                    je final
+    42                                          
+    43                                          ;citim primul numar m 
+    44 00000021 68[00000000]                    push dword m
+    45 00000026 68[03000000]                    push dword format_citire
+    46 0000002B FF15[00000000]                  call [scanf]
+    47 00000031 83C408                          add esp, 4*2 ; eliberam stiva
+    48 00000034 8B0D[00000000]                  mov ecx, [m] ; salvam valoarea lui m pentru loop
+    49                                          ;citim al doilea numar
+    50 0000003A 68[01000000]                    push dword n
+    51 0000003F 68[03000000]                    push dword format_citire
+    52 00000044 FF15[00000000]                  call [scanf]
+    53 0000004A 83C408                          add esp, 4*2
+    54                                          
+    55 0000004D 668B15[01000000]                mov dx, [n] ; stocam valoarea lui n 
+    56                                          
+    57                                          repeta:
+    58                                              ;citim pe rand cate un numar
+    59 00000054 68[02000000]                        push numar
+    60 00000059 68[03000000]                        push format_citire
+    61 0000005E FF15[00000000]                      call [scanf]
+    62 00000064 83C408                              add esp, 4*2
+    63                                              ;salvam valoarea pentru a o prelucra
+    64 00000067 A1[02000000]                        mov eax, [numar]
+    65 0000006C B300                                mov bl, 0
+    66                                              numara:
+    67 0000006E 66BB0A00                                mov bx, 10
+    68 00000072 66F7F3                                  div bx ;luam cifrele zecimale
+    69 00000075 88C2                                    mov dl, al ; salvam catul
+    70 00000077 89D0                                    mov eax, edx 
+    71 00000079 66B80000                                mov ax, 0 ; pregatim cifra pentru a verifica daca se divide cu n 
+    72 0000007D 66F7F2                                  div dx 
+    73 00000080 6683F800                                cmp ax, 0
+    74 00000084 7402                                    je numara1
+    75 00000086 7503                                    jne altul
+    76                                                  numara1:
+    77 00000088 80C301                                      add bl , 1
+    78                                                  altul:
+    79 0000008B 88D0                                    mov al, dl 
+    80 0000008D 66B80000                                mov ax, 0 ; pregatim verificarea urmatoarei cifrele
+    81 00000091 83F800                                  cmp eax, 0
+    82 00000094 7402                                    je afara
+    83 00000096 75D6                                    jne numara
+    84                                              afara:
+    85 00000098 80FB02                              cmp bl, 2
+    86 0000009B 7702                                ja printeaza
+    87 0000009D 7214                                jb urm 
+    88                                              printeaza:
+    89 0000009F FF35[02000000]                          push dword [numar]
+    90 000000A5 68[06000000]                            push dword format_scriere
+    91 000000AA FF15[00000000]                          call [printf]
+    92 000000B0 83C408                                  add esp, 4*2
+    93                                                  
+    94                                              urm:
+    95 000000B3 E29F                            loop repeta
+    96                                              
+    97 000000B5 FF15[00000000]                  call [fclose]
+    98                                          final:
+    99                                          
+   100                                          
+   101 000000BB 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   102 000000BD FF15[00000000]                  call    [exit]       ; call exit to terminate the program
