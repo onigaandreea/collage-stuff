@@ -1,0 +1,7 @@
+Descrierea algoritmului
+Algoritmul lui Johnson constă în următorii paşi:
+1.Pentru început, se adaugă un nod nou q  mulţimii iniţiale a nodurilor, legat, prin muchii de ponderi nule, de toate celelalte noduri.
+2.În cea de-a doua etapă, se foloseşte algoritmul Bellman-Ford, începând cu vârfulnou  introdus  q,  în   vederea   găsirii,   pentru  fiecare  vârf   în  parte,   cel   mai   puţincostisitor h(v) a unui drum de la q la v.
+ Dacă în această etapă se găseşte un ciclunegativ, algoritmul se opreşte.
+3.În   continuare,   muchiile   grafului   iniţial   sunt   re-ponderate,   folosind   valorilecalculate de algoritmul Bellman-Ford: unei muchii ce leagă u şi v, având lungimeaw(u, v), îi este ataşată noua lungime w (u, v)+h(u)-h (v).
+4.În final, pentru fiecare nod s, se face apel la algoritmul lui Dijkstra cu scopul de agăsi cele mai  scurte  drumuri de la  s  la toate  celelalte  noduri ale  grafului re-ponderat.
