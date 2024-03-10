@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+    border: 1px solid black;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 0;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 50px 50px 0 50px;
+    background-color: lightblue;
+}
+
+p{
+    width: 200px;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    background-color: lightblue;
+    margin: -5px 0 0 0;
+}
+
+li{
+    margin: 25px;
+}

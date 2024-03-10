@@ -1,0 +1,21 @@
+[2022-04-07 08:15:37] [info] Start Program:
+Path:"C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab7\lab7\x64\Debug\lab7.exe"
+Arguments:
+Working directory: "C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab7\lab7\lab7\"
+Modules: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab7\lab7\x64\Debug\lab7.exe Excluded: 
+Sources: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab7\lab7\lab7 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Andreea\AppData\Local\Temp\nr0j50lh.3xt 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-07 08:15:37] [info] Module: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab7\lab7\x64\Debug\lab7.exe is selected because it matches selected pattern: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab7\lab7\x64\Debug\lab7.exe
+[2022-04-07 08:15:41] [info] ----------------------------------------------------
+[2022-04-07 08:15:41] [info] Coverage binary generated in file: C:\Users\Andreea\AppData\Local\Temp\nr0j50lh.3xt
+[2022-04-07 08:15:41] [info] ----------------------------------------------------

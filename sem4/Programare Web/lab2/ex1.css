@@ -1,0 +1,26 @@
+.parinte{
+    display: flex;
+    /* align-items: center; */
+    border: 2px solid #000;
+    width: 400px;
+}
+
+.stanga{
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+}
+
+.dreapta{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    width: 200px;
+}
+
+.dreapta img{
+    max-width: 200px;
+    align-self: center;
+}

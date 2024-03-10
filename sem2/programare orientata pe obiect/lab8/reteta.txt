@@ -1,0 +1,5 @@
+Reteta:
+ c bb a 20
+ d bc b 10
+ a aa a 6
+Sfarsit reteta

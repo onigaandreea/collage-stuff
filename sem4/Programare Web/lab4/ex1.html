@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <select size="10" id="list1">
+    <option value="element1">Element 1</option>
+    <option value="element2">Element 2</option>
+    <option value="element3">Element 3</option>
+    <option value="element4">Element 4</option>
+  </select>
+  
+  <select size="10" id="list2">
+    <option value="element5">Element 5</option>
+    <option value="element6">Element 6</option>
+    <option value="element7">Element 7</option>
+    <option value="element8">Element 8</option>
+  </select>
+  
+  <script>
+    $(document).ready(function() {
+      $('#list1 option').on('dblclick', function() {
+        $('#list2').append($(this));
+      });
+      
+      $('#list2 option').on('dblclick', function() {
+        $('#list1').append($(this));
+      });
+    });
+  </script>
+        
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitiul 4</title>
+</head>
+<body>
+    <table id="myTable">
+        <thead>
+          <tr>
+            <th onclick="sortTable(0)">Fructe</th>
+            <th onclick="sortTable(1)">Pret</th>
+            <th onclick="sortTable(2)">Cantitate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mere</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Pere</td>
+            <td>8</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Cirese</td>
+            <td>5</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <script>
+        function sortTable(col) {
+          var table, rows, switching, i, x, y, shouldSwitch;
+          table = document.getElementById("myTable");
+          switching = true;
+          while (switching) {
+            switching = false;
+            rows = table.rows;
+            for (i = 1; i < (rows.length - 1); i++) {
+              shouldSwitch = false;
+              x = rows[i].getElementsByTagName("td")[col];
+              y = rows[i + 1].getElementsByTagName("td")[col];
+            
+              if (!isNaN(parseInt(x.innerHTML))) { // verific daca valoarea este numerica
+                if (parseInt(x.innerHTML) > parseInt(y.innerHTML)) {
+                    shouldSwitch = true;
+                    break;
+                }
+              } else {
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+              }
+            }
+            if (shouldSwitch) {
+              rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+              switching = true;
+            }
+          }
+        }
+
+    </script>
+</body>
+</html>

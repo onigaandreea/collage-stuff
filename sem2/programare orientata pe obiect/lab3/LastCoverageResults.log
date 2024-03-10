@@ -1,0 +1,21 @@
+[2022-04-14 07:59:59] [info] Start Program:
+Path:"C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\farmacie\farmacie\x64\Debug\farmacie.exe"
+Arguments:
+Working directory: "C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\farmacie\farmacie\farmacie\"
+Modules: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\farmacie\farmacie\x64\Debug\farmacie.exe Excluded: 
+Sources: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\farmacie\farmacie\farmacie Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Andreea\AppData\Local\Temp\i1qmlhfq.214 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-14 07:59:59] [info] Module: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\farmacie\farmacie\x64\Debug\farmacie.exe is selected because it matches selected pattern: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\farmacie\farmacie\x64\Debug\farmacie.exe
+[2022-04-14 08:00:01] [info] ----------------------------------------------------
+[2022-04-14 08:00:01] [info] Coverage binary generated in file: C:\Users\Andreea\AppData\Local\Temp\i1qmlhfq.214
+[2022-04-14 08:00:01] [info] ----------------------------------------------------

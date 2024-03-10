@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitiul 4</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th id="fructe-header">Fructe</th>
+        <th id="pret-header">Pret</th>
+        <th id="cantitate-header">Cantitate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mere</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Pere</td>
+        <td>8</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Cirese</td>
+        <td>5</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+    $(document).ready(function() {
+      $("#fructe-header").click(function() { sortTable(0); });
+      $("#pret-header").click(function() { sortTable(1); });
+      $("#cantitate-header").click(function() { sortTable(2); });
+    });
+    
+    function sortTable(col) {
+      var table, rows, switching, i, x, y, shouldSwitch;
+      table = $("#myTable");
+      switching = true;
+      while (switching) {
+        switching = false;
+        rows = table.find("tr");
+        for (i = 1; i < rows.length - 1; i++) {
+          shouldSwitch = false;
+          x = $(rows[i]).find("td").eq(col);
+          y = $(rows[i + 1]).find("td").eq(col);
+          if (!isNaN(parseInt(x.text()))) {
+            if (parseInt(x.text()) > parseInt(y.text())) {
+              shouldSwitch = true;
+              break;
+            }
+          } else {
+            if (x.text().toLowerCase() > y.text().toLowerCase()) {
+              shouldSwitch = true;
+              break;
+            }
+          }
+        }
+        if (shouldSwitch) {
+          $(rows[i]).before($(rows[i + 1]));
+          switching = true;
+        }
+      }
+    }
+  </script>
+</body>
+</html>

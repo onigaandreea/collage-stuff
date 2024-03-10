@@ -1,0 +1,117 @@
+#navlist {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    top: 0;
+  }
+  
+  #navlist li, #navlist a {
+    height: 84px;
+    display: block;
+  }
+  
+  #facebook {
+    width: 84px;
+    background: url('css-pr4.png') 0 -84px;
+  }
+  
+  #flickr {
+    width: 84px;
+    background: url('css-pr4.png') -84px -84px;
+  }
+  
+  #dribbble {
+    width: 84px;
+    background: url('css-pr4.png') -168px -84px;
+  }
+
+  #google {
+    width: 84px;
+    background: url('css-pr4.png') -252px -84px;
+  }
+  
+  #linkedin {
+    width: 84px;
+    background: url('css-pr4.png') -336px -84px;
+  }
+  
+  #pinterest {
+    width: 84px;
+    background: url('css-pr4.png') -420px -84px;
+  }
+
+  #Wifi {
+    width: 84px;
+    background: url('css-pr4.png') -504px -84px;
+  }
+  
+  #skipe {
+    width: 84px;
+    background: url('css-pr4.png') -588px -84px;
+  }
+  
+  #twitter {
+    width: 84px;
+    background: url('css-pr4.png') -672px -84px;
+  }
+
+  #vimeo {
+    width: 84px;
+    background: url('css-pr4.png') -756px -84px;
+  }
+  
+  #youtube {
+    width: 84px;
+    background: url('css-pr4.png') -840px -84px;
+  }
+  
+  #facebook a:hover {
+    background: url('css-pr4.png') 0 0;
+  }
+  
+  #flickr a:hover {
+    background: url('css-pr4.png') -84px 0;
+  }
+  
+  #dribbble a:hover {
+    background: url('css-pr4.png') -168px 0;
+  }
+
+  #google a:hover {
+    background: url('css-pr4.png') -252px 0;
+  }
+  
+  #linkedin a:hover {
+    background: url('css-pr4.png') -336px 0;
+  }
+  
+  #pinterest a:hover {
+    background: url('css-pr4.png') -420px 0;
+  }
+
+  #Wifi a:hover {
+    background: url('css-pr4.png') -504px 0;
+  }
+  
+  #skipe a:hover {
+    background: url('css-pr4.png') -588px 0;
+  }
+  
+  #twitter a:hover {
+    background: url('css-pr4.png') -672px 0;
+  }
+
+  #vimeo a:hover {
+    background: url('css-pr4.png') -756px 0;
+  }
+  
+  #youtube a:hover {
+    background: url('css-pr4.png') -840px 0;
+  }

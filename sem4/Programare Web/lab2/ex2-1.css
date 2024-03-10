@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+header,main,footer{
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding-left: 10px;
+}
+
+header{
+    background: red;
+    height: 10%;
+}
+
+nav{
+    display: flex;
+    float: left;
+    background-color: yellow;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+li{
+    float: left;
+    border-left: 1px solid #000;
+    padding: 5px;
+    width: 18.5%;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+
+main{
+    background-color: green;
+    height: 80%;
+}
+
+footer{
+    background-color: pink;
+    height: 10%;
+}

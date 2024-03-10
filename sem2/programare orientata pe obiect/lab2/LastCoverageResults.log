@@ -1,0 +1,21 @@
+[2022-03-16 15:38:05] [info] Start Program:
+Path:"C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2\lab2\x64\Debug\lab2.exe"
+Arguments:
+Working directory: "C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2\lab2"
+Modules: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2\lab2\x64\Debug\lab2.exe Excluded: 
+Sources: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2\lab2\lab2 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Andreea\AppData\Local\Temp\y5ili0fj.oej 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-16 15:38:05] [info] Module: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2\lab2\x64\Debug\lab2.exe is selected because it matches selected pattern: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2\lab2\x64\Debug\lab2.exe
+[2022-03-16 15:38:25] [info] ----------------------------------------------------
+[2022-03-16 15:38:25] [info] Coverage binary generated in file: C:\Users\Andreea\AppData\Local\Temp\y5ili0fj.oej
+[2022-03-16 15:38:25] [info] ----------------------------------------------------

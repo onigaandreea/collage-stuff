@@ -1,0 +1,240 @@
+1,Adela Lupei,Scoala Gimnaziala “Horea”
+2,Cristi Marin,Scoala Gimnaziala “Horea”
+3,Sandu Petrescu,Scoala Gimnaziala “Horea”
+4,Bianca Ionescu,Scoala Gimnaziala “Horea”
+5,Dionisie Alexandrescu,Scoala Gimnaziala “Horea”
+6,Doina Lupu,Scoala Gimnaziala “Horea”
+7,Nicolae Albescu,Scoala Gimnaziala “Horea”
+8,Clara Albu,Scoala Gimnaziala “Horea”
+9,Dorina Ione,Scoala Gimnaziala “Horea”
+10,Anghel Martin,Scoala Gimnaziala “Horea”
+11,Luiza Constantin,Scoala Gimnaziala “Horea”
+12,Lenuța Petrescu,Scoala Gimnaziala “Horea”
+13,Monica Radu,Scoala Gimnaziala “Horea”
+14,Lenuța Funar,Scoala Gimnaziala “Horea”
+15,Robert Ardelean,Scoala Gimnaziala “Horea”
+16,Camelia Dumitru,Scoala Gimnaziala "Octavian Goga" 
+17,Virgiliu Petran,Scoala Gimnaziala "Octavian Goga" 
+18,Alexandru Matei,Scoala Gimnaziala "Octavian Goga" 
+19,Melania Ciobanu,Scoala Gimnaziala "Octavian Goga" 
+20,Sanda Popa,Scoala Gimnaziala "Octavian Goga" 
+21,Aurelian Sala,Scoala Gimnaziala "Octavian Goga" 
+22,Flavia Constantinescu,Scoala Gimnaziala "Octavian Goga" 
+23,Tereza Văduva,Scoala Gimnaziala "Octavian Goga" 
+24,Cosmin Alexandrescu,Scoala Gimnaziala "Octavian Goga" 
+25,Mădălina Șerban,Scoala Gimnaziala "Octavian Goga" 
+26,Ion Adam,Scoala Gimnaziala "Octavian Goga" 
+27,Andrei Marin,Scoala Gimnaziala "Octavian Goga" 
+28,Dumitra Ungur,Scoala Gimnaziala "Octavian Goga" 
+29,Andrei Vladimirescu,Scoala Gimnaziala "Octavian Goga" 
+30,Bogdan Ionescu,Scoala Gimnaziala "Octavian Goga" 
+31,Miron Ciobanu,Liceul Teoretic "Lucian Blaga"
+32,Timotei Vasile,Liceul Teoretic "Lucian Blaga"
+33,Raluca Nicolescu,Liceul Teoretic "Lucian Blaga"
+34,Virgil Dalca,Liceul Teoretic "Lucian Blaga"
+35,Loredana Constantinescu,Liceul Teoretic "Lucian Blaga"
+36,Mădălina Ciobanu,Liceul Teoretic "Lucian Blaga"
+37,Valentin Iliescu,Liceul Teoretic "Lucian Blaga"
+38,Ciprian Negrescu,Liceul Teoretic "Lucian Blaga"
+39,Cristiana Stoica,Liceul Teoretic "Lucian Blaga"
+40,Lucian Popescu,Liceul Teoretic "Lucian Blaga"
+41,Cosmina Constantin,Liceul Teoretic "Lucian Blaga"
+42,Livia Iliescu,Liceul Teoretic "Lucian Blaga"
+43,Miruna Nicolescu,Liceul Teoretic "Lucian Blaga"
+44,Isabela Petran,Liceul Teoretic "Lucian Blaga"
+45,Mihai Petran,Liceul Teoretic "Lucian Blaga"
+46,Lidia Albu,Scoala Gimnaziala "Ioan Bob"
+47,Petronela Lupei,Scoala Gimnaziala "Ioan Bob"
+48,Magda Stoica,Scoala Gimnaziala "Ioan Bob"
+49,Eliza Nicolescu,Scoala Gimnaziala "Ioan Bob"
+50,Georgiana Gheorghe,Scoala Gimnaziala "Ioan Bob"
+51,Rebeca Pop,Scoala Gimnaziala "Ioan Bob"
+52,Claudiu Nicolescu,Scoala Gimnaziala "Ioan Bob"
+53,Sebastian Vasilescu,Scoala Gimnaziala "Ioan Bob"
+54,Alexia Iliescu,Scoala Gimnaziala "Ioan Bob"
+55,Isac Gheorghe,Scoala Gimnaziala "Ioan Bob"
+56,Minodora Șerban,Scoala Gimnaziala "Ioan Bob"
+57,Horia Constantinescu,Scoala Gimnaziala "Ioan Bob"
+58,Ovidia Cojocaru,Scoala Gimnaziala "Ioan Bob"
+59,Paul Marcu,Scoala Gimnaziala "Ioan Bob"
+60,Tudor Pop,Scoala Gimnaziala "Ioan Bob"
+61,Dorina Anghelescu,Scoala Gimnaziala "Ion Creanga"
+62,Darius Antonescu,Scoala Gimnaziala "Ion Creanga"
+63,Claudiu Cojocaru,Scoala Gimnaziala "Ion Creanga"
+64,Gheorghe Cojocaru,Scoala Gimnaziala "Ion Creanga"
+65,Elisabeta Văduva,Scoala Gimnaziala "Ion Creanga"
+66,Costin Lupu,Scoala Gimnaziala "Ion Creanga"
+67,Florina Lungu,Scoala Gimnaziala "Ion Creanga"
+68,Miron Daniel,Scoala Gimnaziala "Ion Creanga"
+69,Vasile Andronescu,Scoala Gimnaziala "Ion Creanga"
+70,Atanasie Nicolescu,Scoala Gimnaziala "Ion Creanga"
+71,Carol David,Scoala Gimnaziala "Ion Creanga"
+72,Emilia Solomon,Scoala Gimnaziala "Ion Creanga"
+73,Irina Albert,Scoala Gimnaziala "Ion Creanga"
+74,Aurelian Sala,Scoala Gimnaziala "Ion Creanga"
+75,Daria Antonescu,Scoala Gimnaziala "Ion Creanga"
+76,Laurențiu Ardelean,Colegiul National Pedagogic "Gheorghe Lazar"
+77,Laura Petrescu,Colegiul National Pedagogic "Gheorghe Lazar"
+78,Luiza Antonescu,Colegiul National Pedagogic "Gheorghe Lazar"
+79,Magda Radu,Colegiul National Pedagogic "Gheorghe Lazar"
+80,Rozalia Albert,Colegiul National Pedagogic "Gheorghe Lazar"
+81,Victoria Dalca,Colegiul National Pedagogic "Gheorghe Lazar"
+82,Valentin Solomon,Colegiul National Pedagogic "Gheorghe Lazar"
+83,Victoria Șerban,Colegiul National Pedagogic "Gheorghe Lazar"
+84,Victor Sala,Colegiul National Pedagogic "Gheorghe Lazar"
+85,Cătălina Bălan,Colegiul National Pedagogic "Gheorghe Lazar"
+86,Mirela Stan,Colegiul National Pedagogic "Gheorghe Lazar"
+87,Bogdana Bălan,Colegiul National Pedagogic "Gheorghe Lazar"
+88,Mirela Popescu,Colegiul National Pedagogic "Gheorghe Lazar"
+89,Dragoș Dumitru,Colegiul National Pedagogic "Gheorghe Lazar"
+90,Denis Adam,Colegiul National Pedagogic "Gheorghe Lazar"
+91,Lina Mărguța,Scoala Gimnaziala Internationala SPECTRUM
+92,Cristi Dabija,Scoala Gimnaziala Internationala SPECTRUM
+93,Daniel Toma,Scoala Gimnaziala Internationala SPECTRUM
+94,Lili Pavel,Scoala Gimnaziala Internationala SPECTRUM
+95,Ștefania Pîndaru,Scoala Gimnaziala Internationala SPECTRUM
+96,Eugen Popescu,Scoala Gimnaziala Internationala SPECTRUM
+97,Mădălina Slăboiu,Scoala Gimnaziala Internationala SPECTRUM
+98,Florentina Buţi,Scoala Gimnaziala Internationala SPECTRUM
+99,Monica Călin,Scoala Gimnaziala Internationala SPECTRUM
+100,Niță Tocmelea,Scoala Gimnaziala Internationala SPECTRUM
+101,Ovidiu Ursu,Scoala Gimnaziala Internationala SPECTRUM
+102,Valeriu Dumitrescu,Scoala Gimnaziala Internationala SPECTRUM
+103,Sabina Tocmelea,Scoala Gimnaziala Internationala SPECTRUM
+104,Mirel Pop,Scoala Gimnaziala Internationala SPECTRUM
+105,Gabriel Manole,Scoala Gimnaziala Internationala SPECTRUM
+106,Ștefan Popescu,Colegiul National „Emil Racovita”
+107,Alfred Dragomir,Colegiul National „Emil Racovita”
+108,Ionut Bușe,Colegiul National „Emil Racovita”
+109,Bratosin Dîrjan,Colegiul National „Emil Racovita”
+110,Niță Stăruială,Colegiul National „Emil Racovita”
+111,Elisabeta Şonda,Colegiul National „Emil Racovita”
+112,Casiana Bratosin,Colegiul National „Emil Racovita”
+113,Gloria Mălăeru,Colegiul National „Emil Racovita”
+114,Alfred Ciobanu,Colegiul National „Emil Racovita”
+115,Luminița Gherban,Colegiul National „Emil Racovita”
+116,Corina Bîrsan,Colegiul National „Emil Racovita”
+117,Clara Gherban,Colegiul National „Emil Racovita”
+118,Laurențiu Dumitrescu,Colegiul National „Emil Racovita”
+119,Dalia Lupea,Colegiul National „Emil Racovita”
+120,Lucia Lazăr,Colegiul National „Emil Racovita”
+121,Anton Lupu,Colegiul National "George Cosbuc"
+122,Nicolata Şonda,Colegiul National "George Cosbuc"
+123,Ștefania Mărguța,Colegiul National "George Cosbuc"
+124,Andreea Drăgan,Colegiul National "George Cosbuc"
+125,Monica Buţi,Colegiul National "George Cosbuc"
+126,Elisabeta Olteanu,Colegiul National "George Cosbuc"
+127,Diana Țuțea,Colegiul National "George Cosbuc"
+128,Elvira Marcu,Colegiul National "George Cosbuc"
+129,Mirel Matei,Colegiul National "George Cosbuc"
+130,Luminița Drăgan,Colegiul National "George Cosbuc"
+131,Anastasia Mărguța,Colegiul National "George Cosbuc"
+132,Aurelian Dabija,Colegiul National "George Cosbuc"
+133,Sonia Birău,Colegiul National "George Cosbuc"
+134,George Barbu,Colegiul National "George Cosbuc"
+135,Adrian Constantinescu,Colegiul National "George Cosbuc"
+136,Sebastian Dragoş,Scoala Gimnaziala "Ion Agarbiceanu"
+137,Denisa Todică,Scoala Gimnaziala "Ion Agarbiceanu"
+138,Alecu Constantinescu,Scoala Gimnaziala "Ion Agarbiceanu"
+139,Casiana Crăciun,Scoala Gimnaziala "Ion Agarbiceanu"
+140,Daria Manolache,Scoala Gimnaziala "Ion Agarbiceanu"
+141,Dragoș Iancu,Scoala Gimnaziala "Ion Agarbiceanu"
+142,Iulian Ionescu,Scoala Gimnaziala "Ion Agarbiceanu"
+143,Elena Niță,Scoala Gimnaziala "Ion Agarbiceanu"
+144,Andreea Dobre,Scoala Gimnaziala "Ion Agarbiceanu"
+145,Andrei Sava,Scoala Gimnaziala "Ion Agarbiceanu"
+146,Alecu Tomescu,Scoala Gimnaziala "Ion Agarbiceanu"
+147,Elvira Şonda,Scoala Gimnaziala "Ion Agarbiceanu"
+148,Alexandru Dabija,Scoala Gimnaziala "Ion Agarbiceanu"
+149,Smaranda Vasilică,Scoala Gimnaziala "Ion Agarbiceanu"
+150,Adrian Oană,Scoala Gimnaziala "Ion Agarbiceanu"
+151,Homner Marin,Liceul Teoretic "Avram Iancu"
+152,Alma Lazăr,Liceul Teoretic "Avram Iancu"
+153,Adina Matasaru,Liceul Teoretic "Avram Iancu"
+154,Gloria Stăruială,Liceul Teoretic "Avram Iancu"
+155,Luminița Mărguța,Liceul Teoretic "Avram Iancu"
+156,Larisa Dobrică,Liceul Teoretic "Avram Iancu"
+157,Victor Mureșan,Liceul Teoretic "Avram Iancu"
+158,Corina Lămboiu,Liceul Teoretic "Avram Iancu"
+159,Corina Gherban,Liceul Teoretic "Avram Iancu"
+160,Victor Muntean,Liceul Teoretic "Avram Iancu"
+161,Lili Florescu,Liceul Teoretic "Avram Iancu"
+162,Andrei Pușcașu,Liceul Teoretic "Avram Iancu"
+163,Tania Dobrică,Liceul Teoretic "Avram Iancu"
+164,Alma Mihu,Liceul Teoretic "Avram Iancu"
+165,Ana Dobrică,Liceul Teoretic "Avram Iancu"
+166,Otilia Dumitru,Scoala Gimnaziala "Constantin Brancusi"
+167,Adela Pîndaru,Scoala Gimnaziala "Constantin Brancusi"
+168,Ștefan Frățilă,Scoala Gimnaziala "Constantin Brancusi"
+169,Zoe Pîndaru,Scoala Gimnaziala "Constantin Brancusi"
+170,Valentin Nița,Scoala Gimnaziala "Constantin Brancusi"
+171,Sonia Ilieș,Scoala Gimnaziala "Constantin Brancusi"
+172,Elena Pîndaru,Scoala Gimnaziala "Constantin Brancusi"
+173,Laurențiu Ciobanu,Scoala Gimnaziala "Constantin Brancusi"
+174,Sonia Drăgan,Scoala Gimnaziala "Constantin Brancusi"
+175,Claudia Matasaru,Scoala Gimnaziala "Constantin Brancusi"
+176,Sonia Radu,Scoala Gimnaziala "Constantin Brancusi"
+177,Adina Bratosin,Scoala Gimnaziala "Constantin Brancusi"
+178,Ștefan Bușe,Scoala Gimnaziala "Constantin Brancusi"
+179,George Ifrim,Scoala Gimnaziala "Constantin Brancusi"
+180,Carina Ilieș,Scoala Gimnaziala "Constantin Brancusi"
+181,Clara Stăruială,Liceul Teoretic "Onisifor Ghibu"
+182,Iulian Tomescu,Liceul Teoretic "Onisifor Ghibu"
+183,Doina Birău,Liceul Teoretic "Onisifor Ghibu"
+184,Oana Dobrică,Liceul Teoretic "Onisifor Ghibu"
+185,Elisabeta Mărguța,Liceul Teoretic "Onisifor Ghibu"
+186,Andreea Sava,Liceul Teoretic "Onisifor Ghibu"
+187,Igor Cristea,Liceul Teoretic "Onisifor Ghibu"
+188,Alexandru Tămaș,Liceul Teoretic "Onisifor Ghibu"
+189,Elena Dimitrescu,Liceul Teoretic "Onisifor Ghibu"
+190,Robert Manole,Liceul Teoretic "Onisifor Ghibu"
+191,Cristi Manole,Liceul Teoretic "Onisifor Ghibu"
+192,Aurelian Dinu,Liceul Teoretic "Onisifor Ghibu"
+193,Robert Munteanu,Liceul Teoretic "Onisifor Ghibu"
+194,Sebastian Rusu,Liceul Teoretic "Onisifor Ghibu"
+195,Otilia Chirilă,Liceul Teoretic "Onisifor Ghibu"
+196,Melania Manolache,Liceul cu Program Sportiv Cluj-Napoca
+197,Andreea Chirilă,Liceul cu Program Sportiv Cluj-Napoca
+198,Andreea Ioniță,Liceul cu Program Sportiv Cluj-Napoca
+199,Brândușa Călin,Liceul cu Program Sportiv Cluj-Napoca
+200,Daria Crăciun,Liceul cu Program Sportiv Cluj-Napoca
+201,Alexandra Dîrjan,Liceul cu Program Sportiv Cluj-Napoca
+202,Valentina Gherban,Liceul cu Program Sportiv Cluj-Napoca
+203,Carina Drăghici,Liceul cu Program Sportiv Cluj-Napoca
+204,Geanina Dîrjan,Liceul cu Program Sportiv Cluj-Napoca
+205,Ana Olteanu,Liceul cu Program Sportiv Cluj-Napoca
+206,Codrut Frățilă,Liceul cu Program Sportiv Cluj-Napoca
+207,Sebastian Oană,Liceul cu Program Sportiv Cluj-Napoca
+208,Lucia Lămboiu,Liceul cu Program Sportiv Cluj-Napoca
+209,Nadia Buţi,Liceul cu Program Sportiv Cluj-Napoca
+210,Sofia Lămboiu,Liceul cu Program Sportiv Cluj-Napoca
+211,Adela Lupei,Liceul Teoretic "Nicolae Balcescu"
+212,Cristi Marin,Liceul Teoretic "Nicolae Balcescu"
+213,Sandu Petrescu,Liceul Teoretic "Nicolae Balcescu"
+214,Bianca Ionescu,Liceul Teoretic "Nicolae Balcescu"
+215,Dionisie Alexandrescu,Liceul Teoretic "Nicolae Balcescu"
+216,Doina Lupu,Liceul Teoretic "Nicolae Balcescu"
+217,Nicolae Albescu,Liceul Teoretic "Nicolae Balcescu"
+218,Clara Albu,Liceul Teoretic "Nicolae Balcescu"
+219,Dorina Ione,Liceul Teoretic "Nicolae Balcescu"
+220,Anghel Martin,Liceul Teoretic "Nicolae Balcescu"
+221,Luiza Constantin,Liceul Teoretic "Nicolae Balcescu"
+222,Lenuța Petrescu,Liceul Teoretic "Nicolae Balcescu"
+223,Monica Radu,Liceul Teoretic "Nicolae Balcescu"
+224,Lenuța Funar,Liceul Teoretic "Nicolae Balcescu"
+225,Robert Ardelean,Liceul Teoretic "Nicolae Balcescu"
+226,Camelia Dumitru,Liceul Teoretic "Gheorghe Sincai"
+227,Virgiliu Petran,Liceul Teoretic "Gheorghe Sincai"
+228,Alexandru Matei,Liceul Teoretic "Gheorghe Sincai"
+229,Melania Ciobanu,Liceul Teoretic "Gheorghe Sincai"
+230,Sanda Popa,Liceul Teoretic "Gheorghe Sincai"
+231,Aurelian Sala,Liceul Teoretic "Gheorghe Sincai"
+232,Flavia Constantinescu,Liceul Teoretic "Gheorghe Sincai"
+233,Tereza Văduva,Liceul Teoretic "Gheorghe Sincai"
+234,Cosmin Alexandrescu,Liceul Teoretic "Gheorghe Sincai"
+235,Mădălina Șerban,Liceul Teoretic "Gheorghe Sincai"
+236,Ion Adam,Liceul Teoretic "Gheorghe Sincai"
+237,Andrei Marin,Liceul Teoretic "Gheorghe Sincai"
+238,Dumitra Ungur,Liceul Teoretic "Gheorghe Sincai"
+239,Andrei Vladimirescu,Liceul Teoretic "Gheorghe Sincai"
+240,Bogdan Ionescu,Liceul Teoretic "Gheorghe Sincai"

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select size="10" id="list1">
+        <option value="element1">Element 1</option>
+        <option value="element2">Element 2</option>
+        <option value="element3">Element 3</option>
+        <option value="element4">Element 4</option>
+      </select>
+      
+      <select size="10" id="list2">
+        <option value="element5">Element 5</option>
+        <option value="element6">Element 6</option>
+        <option value="element7">Element 7</option>
+        <option value="element8">Element 8</option>
+      </select>
+      
+      <script>
+        var list1 = document.getElementById("list1");
+        var list2 = document.getElementById("list2");
+      
+        for (var i = 0; i < list1.options.length; i++) {
+          list1.options[i].addEventListener("dblclick", function() {
+            list2.add(this);
+          });
+        }
+      
+        for (var i = 0; i < list2.options.length; i++) {
+          list2.options[i].addEventListener("dblclick", function() {
+            list1.add(this);
+          });
+        }
+      </script>
+            
+</body>
+</html>

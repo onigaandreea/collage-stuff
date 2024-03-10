@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<style>
+    #carousel {
+      position: relative;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    #carousel li {
+      position: absolute;      
+      align-items: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }    
+
+    #carousel li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    #carousel li img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      margin: auto;
+    }
+		
+    #prevBtn,
+    #nextBtn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 10px;
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    #prevBtn {
+      left: 10px;
+    }
+
+    #nextBtn {
+      right: 10px;
+    }
+
+	</style>
+</head>
+<body>
+  <ol id="carousel">
+    <li class="active">
+      <a href="https://ro.pinterest.com/pin/421157002658455474/">
+        <img src="ex5img1.jpg" alt="Image 1">
+      </a>
+    </li>        
+    <li>
+      <a href="https://ro.pinterest.com/pin/452541462537823582/">
+        <img src="ex5img2.jpg" alt="Image 2">
+      </a>
+    </li>     
+    <li>
+      <a href="https://ro.pinterest.com/pin/350717889726921117/">
+        <img src="ex5img3.jpg" alt="Image 3">
+      </a>
+    </li>
+    <li>
+      <a href="https://ro.pinterest.com/pin/AZPGlmaIt8Fr-AkduGEu0H6Ca6QzYELgIZ5tOidJvyOlRTGdY5IGKP8/">
+        <img src="ex5img4.jpg" alt="Image 4">
+      </a>
+    </li>
+    <li>
+      <a href="https://ro.pinterest.com/pin/642466703085058216/">
+        <img src="ex5img5.jpg" alt="Image 5">
+      </a>
+    </li>
+  </ol>
+      
+  <button id="prevBtn">Previous</button>
+  <button id="nextBtn">Next</button>
+      
+	<script>
+		// Declaram variabilele necesare
+    $(document).ready(function() {
+      var images = $('li');
+      var currentIndex = 0;
+      var timerInterval = 3000;
+      var timer;
+
+      images.not(":first-child").hide();
+
+      function showImage(index) {
+        images.eq(currentIndex).hide();
+        images.eq(index).show();
+        currentIndex = index;
+      }
+
+      function showNext() {
+        var nextIndex = (currentIndex + 1) % images.length;
+        showImage(nextIndex);
+      }
+
+      function showPrevious() {
+        var previousIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(previousIndex);
+      }
+
+      timer = setInterval(showNext, timerInterval);
+
+      $('#nextBtn').click(function() {
+        clearInterval(timer);
+        showNext();
+        timer = setInterval(showNext, timerInterval);
+      });
+
+      $('#prevBtn').click(function() {
+        clearInterval(timer);
+        showPrevious();
+        timer = setInterval(showNext, timerInterval);
+      });
+    });
+
+    </script>
+</body>
+</html>

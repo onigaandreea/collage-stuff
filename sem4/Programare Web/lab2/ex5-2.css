@@ -1,0 +1,32 @@
+ul{
+  list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid black;
+    max-width: 650px;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+img,p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p {
+  margin-left: 20px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+header{
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+nav{
+    height: 25px;
+    background-color: yellow;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    text-align: center;
+}
+main{
+    flex: 1;
+    height: calc(100vh - 185px);
+    background-color: green;
+    padding: 0 10px;
+    text-indent: 20px;
+    font-size: 15px;
+}
+footer{
+    height: 60px;
+    text-align: center;
+    background-color: pink;
+    margin-top: auto;
+}

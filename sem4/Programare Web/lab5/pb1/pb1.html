@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 1</title>
+    <script src="pb1.js"></script>
+    <link rel="stylesheet" href="pb1.css">
+</head>
+<body>
+<div id="plecari">
+    <label for="plecariSelect"></label>
+    <select id="plecariSelect" onchange="showRoutes(this.value)">Trenuri
+        <option value="select" selected disabled hidden>Select a city</option>
+        <option value="Bucuresti">Bucuresti</option>
+        <option value="Cluj">Cluj</option>
+        <option value="Timisoara">Timisoara</option>
+        <option value="Brasov">Brasov</option>
+        <option value="Kiev">Kiev</option>
+        <option value="Sevastopol">Sevastopol</option>
+        <option value="Galati">Galati</option>
+    </select>
+</div>
+<div id="sosiri"></div>
+</body>
+</html>

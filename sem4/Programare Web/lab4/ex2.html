@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form id="myForm">
+        <label for="name">Nume:</label>
+        <input type="text" id="name" name="name"><br>
+      
+        <label for="birthdate">Data nasterii:</label>
+        <input type="date" id="birthdate" name="birthdate"><br>
+      
+        <label for="age">Varsta:</label>
+        <input type="number" id="age" name="age"><br>
+      
+        <label for="email">Adresa de e-mail:</label>
+        <input type="email" id="email" name="email"><br>
+      
+        <input type="button" value="Trimite" onclick="validateForm()">
+    </form>
+
+    <script>
+        function calculateAge(birthday) {
+            const today = new Date();
+            let age = today.getFullYear() - birthday.getFullYear();
+            const monthDiff = today.getMonth() - birthday.getMonth();
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthday.getDate())) {
+                age--;
+            }
+            return age;
+        }
+
+        function validateForm() {
+            var name = $("#name").val();
+            var birthdate = $("#birthdate").val();
+            var age = $("#age").val();
+            var email = $("#email").val();
+
+            if (name == "" || age == "" || email == "") {
+                alert("Campurile nume, varsta si e-mail trebuie completate.");
+                $("#name, #age, #email").css("border", "2px solid red");
+            } else {
+                if (!/^[a-zA-Z ]+$/.test(name)) {
+                    alert("Campul nume trebuie sa contina doar litere si spatii.");
+                    $("#name").css("border", "2px solid red");
+                } else {
+                    $("#name").css("border", "2px solid green");
+                }
+                if (birthdate == "" || isNaN(Date.parse(birthdate))) {
+                    alert("Campul birthdate trebuie sa contina o data valida.");
+                    $("#birthdate").css("border", "2px solid red");
+                } else {
+                    $("#birthdate").css("border", "2px solid green");
+                }
+                if (isNaN(age) || age < 1 || age > 100) {
+                    alert("Campul varsta trebuie sa contina un numar intre 1 si 100.");
+                    $("#age").css("border", "2px solid red");
+                } else if (calculateAge(new Date(birthdate)) != age) {
+                    alert("Campul varsta trebuie sa arate varsta corecta, conform campului birthdate.");
+                    $("#age").css("border", "2px solid red");
+                } else {
+                    $("#age").css("border", "2px solid green");
+                }
+                if (!/\S+@\S+\.\S+/.test(email)) {
+                    alert("Campul e-mail trebuie sa fie completat cu o adresa valida.");
+                    $("#email").css("border", "2px solid red");
+                } else {
+                    $("#email").css("border", "2px solid green");
+                }
+            }
+        }   
+
+      </script>
+            
+</body>
+</html>

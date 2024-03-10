@@ -1,0 +1,18 @@
+input[type="text"] {
+    border: solid 1px black;
+    width: 399px;
+    background: repeating-linear-gradient(90deg, #ffffff 0px, #ffffff 19px, #000000 20px);
+    color: black;
+    font-family: monospace;
+    letter-spacing: 1.75ch;
+    padding: 0;
+  }
+
+  input[id="cnp"]{
+    width: 259px;
+  }
+  
+  input:focus {
+    outline: none;
+    color: dodgerblue;
+  }

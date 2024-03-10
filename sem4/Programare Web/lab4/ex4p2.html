@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sortare tabel</title>
+	<style>
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		  padding: 5px;
+		}
+	</style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<table id="idTable2">
+    <tr>
+      <th id="fructe-header">Fructe</th>
+      <td>Capsuni</td>
+      <td>Mere</td>
+      <td>Zmeura</td>    
+    </tr>
+    <tr>
+      <th id="pret-header">Pret</th>
+      <td>10</td>
+      <td>3</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th id="cantitate-header">Cantitate</th>
+      <td>5</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+  </table>
+
+	<script>
+		$(document).ready(function() {
+      $("#fructe-header").click(function() { sortTable2(0); });
+      $("#pret-header").click(function() { sortTable2(1); });
+      $("#cantitate-header").click(function() { sortTable2(2); });
+    });
+    function sortTable2(n) {
+      var table, rows, ok, i, x, y, schimb, dir, schimburi = 0;
+      table = $("#idTable2");
+      ok = false;
+      dir = "asc"; 
+      rows = table[0].rows;
+      while (ok == false) {
+        ok = true;
+        rows = table[0].rows;
+        for (i = 0; i < 2; i++) {
+          schimb = false;
+          x = $(rows[n]).find("td").eq(i);
+          y = $(rows[n]).find("td").eq(i+1);
+      
+          if (dir == "asc") {
+            if (((n == 1 || n == 2) && Number(x.html()) > Number(y.html())) || ((n == 0) && x.html().toLowerCase() > y.html().toLowerCase())) {
+              schimb= true;
+              break;
+            }
+          } else if (dir == "desc") {
+            if (((n == 1 || n == 2) && Number(x.html()) < Number(y.html())) || ((n == 0) && x.html().toLowerCase() < y.html().toLowerCase())) {
+              schimb = true;
+              break;
+            }
+          }
+        }
+        if (schimb) {
+          $(rows[0]).find("td").eq(i+1).insertBefore($(rows[0]).find("td").eq(i));
+          $(rows[1]).find("td").eq(i+1).insertBefore($(rows[1]).find("td").eq(i));
+          $(rows[2]).find("td").eq(i+1).insertBefore($(rows[2]).find("td").eq(i));
+          ok = false;
+          schimburi ++;      
+        } else {
+          if (schimburi == 0 && dir == "asc") {
+            dir = "desc";
+            ok = false;
+          }
+        }
+      }
+    }
+	</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[2022-03-22 19:22:03] [info] Start Program:
+Path:"C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2_2\imobiliara\Debug\imobiliara.exe"
+Arguments:
+Working directory: "C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2_2\imobiliara\imobiliara\"
+Modules: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2_2\imobiliara\Debug\imobiliara.exe Excluded: 
+Sources: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2_2\imobiliara\imobiliara Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Andreea\AppData\Local\Temp\qhxqwhbv.lby 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-22 19:22:03] [info] Module: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2_2\imobiliara\Debug\imobiliara.exe is selected because it matches selected pattern: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab2_2\imobiliara\Debug\imobiliara.exe
+[2022-03-22 19:22:14] [info] ----------------------------------------------------
+[2022-03-22 19:22:14] [info] Coverage binary generated in file: C:\Users\Andreea\AppData\Local\Temp\qhxqwhbv.lby
+[2022-03-22 19:22:14] [info] ----------------------------------------------------

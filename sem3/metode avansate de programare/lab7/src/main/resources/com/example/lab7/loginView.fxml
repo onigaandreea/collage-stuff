@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab7.controller.LoginController">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="35.0" prefHeight="39.0" prefWidth="334.0" text="Login" textAlignment="CENTER">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usernameTextField" layoutX="33.0" layoutY="196.0" prefHeight="26.0" prefWidth="334.0" promptText="email" />
+        <Label layoutX="33.0" layoutY="177.0" prefHeight="18.0" prefWidth="334.0" text="email" />
+        <Label layoutX="33.0" layoutY="231.0" prefHeight="18.0" prefWidth="334.0" text="password" />
+        <PasswordField fx:id="loginPasswordPasswordField" layoutX="33.0" layoutY="250.0" prefHeight="26.0" prefWidth="334.0" promptText="password" />
+        <Button fx:id="loginButton" layoutX="33.0" layoutY="341.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="26.0" prefWidth="334.0" text="Login" />
+        <Label layoutX="33.0" layoutY="400.0" prefHeight="18.0" prefWidth="231.0" text="If you don't have an accont please register " />
+        <Hyperlink fx:id="registerHyperlink" layoutX="264.0" layoutY="397.0" onAction="#hereHyperlinkClicked" text="here" underline="true" />
+        <Label fx:id="loginErrorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="83.0" prefHeight="39.0" prefWidth="334.0" textAlignment="CENTER" textFill="RED" wrapText="true" />
+    </children>
+</AnchorPane>

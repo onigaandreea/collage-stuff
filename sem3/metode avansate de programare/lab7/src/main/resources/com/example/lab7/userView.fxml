@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab7.controller.Controller">
+   <children>
+      <ToolBar layoutY="6.0" prefHeight="40.0" prefWidth="600.0">
+        <items>
+          <Button fx:id="sighOutButton" mnemonicParsing="false" onAction="#signOut" text="SignOut" />
+        </items>
+      </ToolBar>
+      <TableView fx:id="friendsTableView" layoutX="14.0" layoutY="112.0" prefHeight="360.0" prefWidth="350.0">
+        <columns>
+          <TableColumn fx:id="firstNameColumn" prefWidth="110.0" text="FirstName" />
+          <TableColumn fx:id="lastNameColumn" prefWidth="110.0" text="LastName" />
+            <TableColumn fx:id="emailColumn" prefWidth="130.0" text="Email" />
+        </columns>
+      </TableView>
+      <Label layoutX="38.0" layoutY="63.0" prefHeight="34.0" prefWidth="302.0" text="Your Friends:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="friendRequestButton" layoutX="376.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleRequests" prefHeight="50.0" prefWidth="200.0" text="FriendRequests" />
+      <Button fx:id="addFriendButton" layoutX="376.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleAddFriend" prefHeight="50.0" prefWidth="200.0" text="AddFriend" />
+      <Button fx:id="deleteFriend" layoutX="376.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleDeleteFriend" prefHeight="50.0" prefWidth="200.0" text="DeleteFriend" />
+      <Button fx:id="friendRequestButton2" layoutX="376.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleMyRequests" prefHeight="50.0" prefWidth="200.0" text="RequestsFromMe" />
+      <Button fx:id="messageButton" layoutX="376.0" layoutY="421.0" mnemonicParsing="false" onAction="#handleMessages" prefHeight="50.0" prefWidth="200.0" text="Chat" />
+   </children>
+</AnchorPane>

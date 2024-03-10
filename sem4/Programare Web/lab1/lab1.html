@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>prima tem&#259</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    </head>
+    <body bgcolor="linen">
+        <div align="center">
+            <h3>
+                FORMULAR DE &#206NSCRIERE
+            </h3>
+            <P> Prin completarea acestui formular v&#259 ve&#355i &#238nscrie pentru consursul de admitere.</P>
+            <p>Acest formular solicita date cu caracter personal.</p>
+        </div>
+        <form method="get" action="/action_page.php">
+            <table width="90%" border="4" align="center" bgcolor="lightsteelblue">
+                <tr>
+                    <th colspan="4">Date cu caracter personal</th>
+                </tr>
+                <tr>
+                    <td>Nume:</td>
+                    <td><input type="text" name="nume"></td>
+                    <td>Prenume:</td>
+                    <td><input type="text" name="prenume"></td>
+                </tr>
+                <tr>
+                    <td>Ini&#355iala tat&#259lui:</td>
+                    <td><input type="text" name="initiala"></td>
+                    <td>CNP:</td>
+                    <td><input type="text" name="cnp"></td>
+                </tr>
+                <tr>
+                    <td>Adres&#259:</td>
+                    <td colspan="3"><input type="text" name="adresa"></td>
+                </tr>
+                <tr>
+                    <td>Ora&#351:</td>
+                    <td><input type="text" name="oras"></td>
+                    <td>Jude&#355:</td>
+                    <td><input type="text" name="judet"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="email"></td>
+                    <td>Telefon:</td>
+                    <td><input type="text" name="telefon"></td>
+                </tr>
+            </table>
+            <table width="90%" border="4" align="center" bgcolor="lightsteelblue">
+                <tr>
+                    <th colspan="2">Informa&#355ii legate de facultatea noastr&#259</th>
+                </tr>
+                <tr>
+                    <td colspan="2" bgcolor="linen">
+                        <i>&emsp;Programe de studiu disponibile:</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table width="100%" border="2">
+                            <tr>
+                                <th>Nr. crt.</th>
+                                <th>Specializare</th>
+                                <th>Limbi predare</th>
+                                <th>Finan&#355are</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Matematic&#259</td>
+                                <td>Rom&#226n&#259, maghiar&#259</td>
+                                <td>buget sau tax&#259</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Matematic&#259 &#351i informatic&#259</td>
+                                <td>Rom&#226n&#259, maghiar&#259 sau englez&#259</td>
+                                <td>buget sau tax&#259</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Informatic&#259</td>
+                                <td>Rom&#226n&#259, maghiar&#259, englez&#259 sau german&#259</td>
+                                <td>buget sau tax&#259</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Pa&#351i de urmat de c&#259tre fiecare aplicant:</p>
+                        <ul>
+                            <li>Completarea acestui formular</li>
+                            <li>Completarea cererii de &#238nscriere la concursul de admitere</li>
+                            <li>Depunerea online a dosarului aplicantului</li>
+                            <li>Achitarea taxei de &#238nscriere</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Documentele necesare pentru &#238ntocmirea dosarului:</p>
+                        <ol>
+                            <li>Cerearea de &#238nscriere completat&#259 &#351i semnat&#259</li>
+                            <li>Copie dup&#259 cartea de identitate</li>
+                            <li>Copie dup&#259 certificatul de na&#351tere</li>
+                            <li>Copii legalizate(sau varianta original&#259) ale diplomei de bacalaureat &#351i a fi&#351ei matricole</li>
+                            <li>Adeverin&#355&#259 medical&#259</li>
+                            <li>Alte acte necesare, dup&#259 caz:
+                                <ul>
+                                    <li>Diploma cu premiul ob&#355inut, pentru candida&#355ii cu facilit&#259&#355i de olimpici</li>
+                                    <li>Certificat de competen&#355&#259 lingvistic&#259 pentru cine opteaz&#259 pentru programele &#238n alte limbi, dec&#226t rom&#226na</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Criterii de departajare pentru note egale:
+                        <ol>
+                            <li>Media la bac</li>
+                            <li>Nota ob&#355inut&#259 la bac la matematic&#259</li>
+                            <li>Nota ob&#355inut&#259 la bac la informatic&#259</li>
+                            <li>Media la matematic&#259 din to&#355i anii de liceu</li>
+                            <li>Media la informatic&#259 din to&#355i anii de liceu</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <strong>Urm&#259toarele &#238ntreb&#259ri sunt legate de detalii organizatorice</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ve&#355i participa la concursul de admitere?<br>
+                        <select id="rasp" name="rasp">
+                            <option value="afirmativ">Da</option>
+                            <option value="negativ">Nu, dispun de facilit&#259&#355iile de olimpic</option>
+                        </select>
+                    </td>
+                    <td>Care este materia din care ve&#355i da examenul?<br>
+                        <input type="radio" name="materie" value="mate">Matematic&#259<br>
+                        <input type="radio" name="materie" value="info">Informatic&#259<br>
+                        <input type="radio" name="materie" value="none">Nu este cazul<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &#206n ce limba a&#355i prefera s&#259 da&#355i examenul?<br>
+                        Alege&#355i o limb&#259 care se pred&#259 la specialitatea pe care o ve&#355i alege drept prima op&#355iune<br>
+                        Aten&#355ie, alege&#355i o singur&#259 limb&#259!<br>
+                        <input type="checkbox" name="limba">Rom&#226n&#259<br>
+                        <input type="checkbox" name="limba">Englez&#259<br>
+                        <input type="checkbox" name="limba">Maghiar&#259<br>
+                        <input type="checkbox" name="limba">German&#259<br>
+                    </td>
+                    <td>Dori&#355i s&#259 fi&#355i cazat &#238n c&#259min pe perioada admiterii?<br>
+                        <select id="camin" name="camin">
+                            <option value="afirmativ">Da</option>
+                            <option value="negativ">Nu</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                Pentru mai multe informa&#355ii consulta&#355i site-ul facult&#259&#355i(disponibil prin link-ul urm&#259tor) 
+                <a href="https://www.cs.ubbcluj.ro/">click here.</a>
+            </p>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <br>
+        <img src="thx.jpg" alt="thankyouimg" width="140" height="140">
+    </body>
+
+</html>

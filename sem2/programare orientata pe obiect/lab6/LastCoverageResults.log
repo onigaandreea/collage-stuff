@@ -1,0 +1,21 @@
+[2022-03-31 08:26:01] [info] Start Program:
+Path:"C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab6\lab6\x64\Debug\lab6.exe"
+Arguments:
+Working directory: "C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab6\lab6\lab6\"
+Modules: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab6\lab6\x64\Debug\lab6.exe Excluded: 
+Sources: Selected: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab6\lab6\lab6 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Andreea\AppData\Local\Temp\5m3klor3.xnj 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-31 08:26:01] [info] Module: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab6\lab6\x64\Debug\lab6.exe is selected because it matches selected pattern: C:\Users\Andreea\OneDrive\Desktop\anul1-sem2\programare orientata obiect\labs\lab6\lab6\x64\Debug\lab6.exe
+[2022-03-31 08:26:01] [info] ----------------------------------------------------
+[2022-03-31 08:26:01] [info] Coverage binary generated in file: C:\Users\Andreea\AppData\Local\Temp\5m3klor3.xnj
+[2022-03-31 08:26:01] [info] ----------------------------------------------------

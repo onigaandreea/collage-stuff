@@ -1,0 +1,10 @@
+1,1,Houston Rockets,2,Los Angeles Lakers,2022/03/10
+2,2,Los Angeles Lakers,3,LA Clippers,2022/03/10
+3,3,LA Clippers,4,Chicago Bulls,2022/03/11
+4,4,Chicago Bulls,5,Cleveland Cavaliers,2022/03/12
+5,5,Cleveland Cavaliers,6,Utah Jazz,2022/03/12
+6,6,Utah Jazz,7,Brooklyn Nets,2022/03/15
+7,7,Brooklyn Nets,8,New Orleans Pelicans,2022/03/15
+8,8,New Orleans Pelicans,9,Indiana Pacers,2022/03/16
+9,9,Indiana Pacers,10,Toronto Raptors,2022/03/17
+10,10,Toronto Raptors,1,Houston Rockets,2022/03/17

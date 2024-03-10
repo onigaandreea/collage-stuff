@@ -1,0 +1,28 @@
+#game {
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    display: table;
+    background: #ccddcc;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}

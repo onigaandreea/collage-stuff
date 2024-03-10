@@ -1,0 +1,240 @@
+1,Adela Lupei,Scoala Gimnaziala “Horea”,1,Houston Rockets
+2,Cristi Marin,Scoala Gimnaziala “Horea”,1,Houston Rockets
+3,Sandu Petrescu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+4,Bianca Ionescu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+5,Dionisie Alexandrescu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+6,Doina Lupu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+7,Nicolae Albescu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+8,Clara Albu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+9,Dorina Ione,Scoala Gimnaziala “Horea”,1,Houston Rockets
+10,Anghel Martin,Scoala Gimnaziala “Horea”,1,Houston Rockets
+11,Luiza Constantin,Scoala Gimnaziala “Horea”,1,Houston Rockets
+12,Lenuța Petrescu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+13,Monica Radu,Scoala Gimnaziala “Horea”,1,Houston Rockets
+14,Lenuța Funar,Scoala Gimnaziala “Horea”,1,Houston Rockets
+15,Robert Ardelean,Scoala Gimnaziala “Horea”,1,Houston Rockets
+16,Camelia Dumitru,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+17,Virgiliu Petran,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+18,Alexandru Matei,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+19,Melania Ciobanu,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+20,Sanda Popa,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+21,Aurelian Sala,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+22,Flavia Constantinescu,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+23,Tereza Văduva,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+24,Cosmin Alexandrescu,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+25,Mădălina Șerban,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+26,Ion Adam,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+27,Andrei Marin,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+28,Dumitra Ungur,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+29,Andrei Vladimirescu,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+30,Bogdan Ionescu,Scoala Gimnaziala "Octavian Goga",2,Los Angeles Lakers
+31,Miron Ciobanu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+32,Timotei Vasile,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+33,Raluca Nicolescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+34,Virgil Dalca,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+35,Loredana Constantinescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+36,Mădălina Ciobanu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+37,Valentin Iliescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+38,Ciprian Negrescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+39,Cristiana Stoica,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+40,Lucian Popescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+41,Cosmina Constantin,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+42,Livia Iliescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+43,Miruna Nicolescu,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+44,Isabela Petran,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+45,Mihai Petran,Liceul Teoretic "Lucian Blaga",3,LA Clippers
+46,Lidia Albu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+47,Petronela Lupei,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+48,Magda Stoica,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+49,Eliza Nicolescu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+50,Georgiana Gheorghe,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+51,Rebeca Pop,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+52,Claudiu Nicolescu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+53,Sebastian Vasilescu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+54,Alexia Iliescu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+55,Isac Gheorghe,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+56,Minodora Șerban,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+57,Horia Constantinescu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+58,Ovidia Cojocaru,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+59,Paul Marcu,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+60,Tudor Pop,Scoala Gimnaziala "Ioan Bob",4,Chicago Bulls
+61,Dorina Anghelescu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+62,Darius Antonescu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+63,Claudiu Cojocaru,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+64,Gheorghe Cojocaru,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+65,Elisabeta Văduva,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+66,Costin Lupu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+67,Florina Lungu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+68,Miron Daniel,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+69,Vasile Andronescu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+70,Atanasie Nicolescu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+71,Carol David,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+72,Emilia Solomon,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+73,Irina Albert,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+74,Aurelian Sala,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+75,Daria Antonescu,Scoala Gimnaziala "Ion Creanga",5,Cleveland Cavaliers
+76,Laurențiu Ardelean,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+77,Laura Petrescu,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+78,Luiza Antonescu,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+79,Magda Radu,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+80,Rozalia Albert,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+81,Victoria Dalca,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+82,Valentin Solomon,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+83,Victoria Șerban,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+84,Victor Sala,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+85,Cătălina Bălan,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+86,Mirela Stan,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+87,Bogdana Bălan,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+88,Mirela Popescu,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+89,Dragoș Dumitru,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+90,Denis Adam,Colegiul National Pedagogic "Gheorghe Lazar",6,Utah Jazz
+91,Lina Mărguța,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+92,Cristi Dabija,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+93,Daniel Toma,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+94,Lili Pavel,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+95,Ștefania Pîndaru,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+96,Eugen Popescu,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+97,Mădălina Slăboiu,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+98,Florentina Buţi,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+99,Monica Călin,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+100,Niță Tocmelea,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+101,Ovidiu Ursu,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+102,Valeriu Dumitrescu,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+103,Sabina Tocmelea,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+104,Mirel Pop,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+105,Gabriel Manole,Scoala Gimnaziala Internationala SPECTRUM,7,Brooklyn Nets
+106,Ștefan Popescu,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+107,Alfred Dragomir,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+108,Ionut Bușe,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+109,Bratosin Dîrjan,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+110,Niță Stăruială,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+111,Elisabeta Şonda,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+112,Casiana Bratosin,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+113,Gloria Mălăeru,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+114,Alfred Ciobanu,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+115,Luminița Gherban,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+116,Corina Bîrsan,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+117,Clara Gherban,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+118,Laurențiu Dumitrescu,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+119,Dalia Lupea,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+120,Lucia Lazăr,Colegiul National „Emil Racovita”,8,New Orleans Pelicans
+121,Anton Lupu,Colegiul National "George Cosbuc",9,Indiana Pacers
+122,Nicolata Şonda,Colegiul National "George Cosbuc",9,Indiana Pacers
+123,Ștefania Mărguța,Colegiul National "George Cosbuc",9,Indiana Pacers
+124,Andreea Drăgan,Colegiul National "George Cosbuc",9,Indiana Pacers
+125,Monica Buţi,Colegiul National "George Cosbuc",9,Indiana Pacers
+126,Elisabeta Olteanu,Colegiul National "George Cosbuc",9,Indiana Pacers
+127,Diana Țuțea,Colegiul National "George Cosbuc",9,Indiana Pacers
+128,Elvira Marcu,Colegiul National "George Cosbuc",9,Indiana Pacers
+129,Mirel Matei,Colegiul National "George Cosbuc",9,Indiana Pacers
+130,Luminița Drăgan,Colegiul National "George Cosbuc",9,Indiana Pacers
+131,Anastasia Mărguța,Colegiul National "George Cosbuc",9,Indiana Pacers
+132,Aurelian Dabija,Colegiul National "George Cosbuc",9,Indiana Pacers
+133,Sonia Birău,Colegiul National "George Cosbuc",9,Indiana Pacers
+134,George Barbu,Colegiul National "George Cosbuc",9,Indiana Pacers
+135,Adrian Constantinescu,Colegiul National "George Cosbuc",9,Indiana Pacers
+136,Sebastian Dragoş,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+137,Denisa Todică,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+138,Alecu Constantinescu,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+139,Casiana Crăciun,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+140,Daria Manolache,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+141,Dragoș Iancu,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+142,Iulian Ionescu,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+143,Elena Niță,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+144,Andreea Dobre,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+145,Andrei Sava,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+146,Alecu Tomescu,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+147,Elvira Şonda,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+148,Alexandru Dabija,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+149,Smaranda Vasilică,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+150,Adrian Oană,Scoala Gimnaziala "Ion Agarbiceanu",10,Toronto Raptors
+151,Homner Marin,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+152,Alma Lazăr,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+153,Adina Matasaru,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+154,Gloria Stăruială,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+155,Luminița Mărguța,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+156,Larisa Dobrică,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+157,Victor Mureșan,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+158,Corina Lămboiu,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+159,Corina Gherban,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+160,Victor Muntean,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+161,Lili Florescu,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+162,Andrei Pușcașu,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+163,Tania Dobrică,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+164,Alma Mihu,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+165,Ana Dobrică,Liceul Teoretic "Avram Iancu",11,Charlotte Hornets
+166,Otilia Dumitru,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+167,Adela Pîndaru,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+168,Ștefan Frățilă,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+169,Zoe Pîndaru,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+170,Valentin Nița,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+171,Sonia Ilieș,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+172,Elena Pîndaru,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+173,Laurențiu Ciobanu,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+174,Sonia Drăgan,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+175,Claudia Matasaru,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+176,Sonia Radu,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+177,Adina Bratosin,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+178,Ștefan Bușe,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+179,George Ifrim,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+180,Carina Ilieș,Scoala Gimnaziala "Constantin Brancusi",12,Phoenix Suns
+181,Clara Stăruială,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+182,Iulian Tomescu,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+183,Doina Birău,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+184,Oana Dobrică,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+185,Elisabeta Mărguța,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+186,Andreea Sava,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+187,Igor Cristea,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+188,Alexandru Tămaș,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+189,Elena Dimitrescu,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+190,Robert Manole,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+191,Cristi Manole,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+192,Aurelian Dinu,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+193,Robert Munteanu,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+194,Sebastian Rusu,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+195,Otilia Chirilă,Liceul Teoretic "Onisifor Ghibu",13,Portland TrailBlazers
+196,Melania Manolache,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+197,Andreea Chirilă,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+198,Andreea Ioniță,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+199,Brândușa Călin,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+200,Daria Crăciun,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+201,Alexandra Dîrjan,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+202,Valentina Gherban,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+203,Carina Drăghici,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+204,Geanina Dîrjan,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+205,Ana Olteanu,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+206,Codrut Frățilă,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+207,Sebastian Oană,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+208,Lucia Lămboiu,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+209,Nadia Buţi,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+210,Sofia Lămboiu,Liceul cu Program Sportiv Cluj-Napoca,15,Washington Wizards
+211,Adela Lupei,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+212,Cristi Marin,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+213,Sandu Petrescu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+214,Bianca Ionescu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+215,Dionisie Alexandrescu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+216,Doina Lupu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+217,Nicolae Albescu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+218,Clara Albu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+219,Dorina Ione,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+220,Anghel Martin,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+221,Luiza Constantin,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+222,Lenuța Petrescu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+223,Monica Radu,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+224,Lenuța Funar,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+225,Robert Ardelean,Liceul Teoretic "Nicolae Balcescu",16,San Antonio Spurs
+226,Camelia Dumitru,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+227,Virgiliu Petran,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+228,Alexandru Matei,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+229,Melania Ciobanu,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+230,Sanda Popa,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+231,Aurelian Sala,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+232,Flavia Constantinescu,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+233,Tereza Văduva,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+234,Cosmin Alexandrescu,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+235,Mădălina Șerban,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+236,Ion Adam,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+237,Andrei Marin,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+238,Dumitra Ungur,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+239,Andrei Vladimirescu,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic
+240,Bogdan Ionescu,Liceul Teoretic "Gheorghe Sincai",17,Orlando Magic

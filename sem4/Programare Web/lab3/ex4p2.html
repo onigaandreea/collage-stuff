@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sortare tabel</title>
+	<style>
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		  padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<table id="idTable2">
+        <tr>
+            <th onclick="sortTable2(0)">Fructe</th>
+            <td>Capsuni</td>
+            <td>Mere</td>
+            <td>Zmeura</td>    
+        </tr>
+        <tr>
+            <th onclick="sortTable2(1)">Pret</th>
+            <td>10</td>
+            <td>3</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th onclick="sortTable2(2)">Cantitate</th>
+            <td>5</td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+      </table>
+
+	<script>
+		window.onload = function() {
+			document.getElementById("fructe-header").addEventListener("click", function(){ sortTable(1,0,0); });
+			document.getElementById("pret-header").addEventListener("click", function(){ sortTable(1,1,1); });
+			document.getElementById("cantitate-header").addEventListener("click", function(){ sortTable(1,2,2); });
+		}
+		function sortTable2(n) {
+    var table, rows, ok, i, x, y, schimb, dir, schimburi = 0;
+    table = document.getElementById("idTable2");
+    ok = false;
+    dir = "asc"; 
+    rows = table.rows;
+    while (ok == false) {
+      ok = true;
+      rows = table.rows;
+      for (i = 0; i < 2; i++) {
+        schimb = false;
+        x = rows[n].getElementsByTagName("td")[i];
+        y = rows[n].getElementsByTagName("td")[i+1];
+        
+        if (dir == "asc") {
+          if (((n == 1 || n == 2) && Number(x.innerHTML) > Number(y.innerHTML)) || ((n == 0) && x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase())) {
+            schimb= true;
+            break;
+          }
+        } else if (dir == "desc") {
+          if (((n == 1 || n == 2) && Number(x.innerHTML) < Number(y.innerHTML)) || ((n == 0) && x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase())) {
+            schimb = true;
+            break;
+          }
+        }
+      }
+      if (schimb) {
+        rows[0].getElementsByTagName("td")[i].parentNode.insertBefore(rows[0].getElementsByTagName("td")[i+1], rows[0].getElementsByTagName("td")[i]);
+        rows[1].getElementsByTagName("td")[i].parentNode.insertBefore(rows[1].getElementsByTagName("td")[i+1], rows[1].getElementsByTagName("td")[i]);
+        rows[2].getElementsByTagName("td")[i].parentNode.insertBefore(rows[2].getElementsByTagName("td")[i+1], rows[2].getElementsByTagName("td")[i]);
+        ok = false;
+        schimburi ++;      
+      } else {
+        if (schimburi == 0 && dir == "asc") {
+          dir = "desc";
+          ok = false;
+        }
+      }
+    }
+  }
+
+	</script>
+</body>
+</html>

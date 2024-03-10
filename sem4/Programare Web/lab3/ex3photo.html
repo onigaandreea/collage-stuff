@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Memory Game</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        width: 100px;
+          height: 100px;
+          text-align: center;
+          vertical-align: middle;
+          background-color: lightblue;
+          border: 1px solid black;
+      }
+      img {
+          max-width: 100%;
+          max-height: 100%;
+      }
+
+      .hidden{
+        visibility: hidden;
+      }
+      .reveal {
+        visibility: visible;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <table id="game-board">
+    </table>
+    <script>
+          var size = 4;
+          var board = [];
+          var firstCard = null;
+          var numberOfPairsFound = 0;
+          var isProcessing = false;
+
+          var images = [
+          "image1.jpg", "image2.jpg", 
+          "image3.jpg", "image4.jpg", 
+          "image5.jpg", "image6.jpg",
+          "image7.jpg", "image8.jpg" 
+          ];
+
+          function initBoard() {
+      // Create board array
+      for (var i = 0; i < size; i++) {
+        board[i] = [];
+        for (var j = 0; j < size; j++) {
+          board[i][j] = null;
+        }
+      }
+  
+      // Populate board with pairs of random images
+      var imagesCopy = images.slice();
+      var pairs = [];
+      for (var i = 0; i < size * size / 2; i++) {
+        pairs.push(imagesCopy[i]);
+        pairs.push(imagesCopy[i]);
+      }
+      pairs = shuffle(pairs);
+      for (var i = 0; i < size; i++) {
+        for (var j = 0; j < size; j++) {
+          board[i][j] = pairs.pop();
+        }
+      }
+    }
+  
+    function shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex;
+  
+      // While there remain elements to shuffle...
+      while (0 !== currentIndex) {
+  
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+  
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+  
+      return array;
+    }
+  
+    function renderBoard() {
+        var boardElement = document.getElementById("game-board");
+        boardElement.innerHTML = "";
+        for (var i = 0; i < size; i++) {
+          var row = document.createElement("tr");
+          for (var j = 0; j < size; j++) {
+            var cell = document.createElement("td");
+            cell.innerHTML = "";
+            cell.setAttribute("data-row", i);
+            cell.setAttribute("data-col", j);
+            cell.addEventListener("click", onCellClicked);
+            var image = document.createElement("img");
+            image.setAttribute("src", board[i][j]);
+            image.classList.add("hidden");
+            cell.appendChild(image);
+            row.appendChild(cell);
+          }
+          boardElement.appendChild(row);
+        }
+    }
+  
+    function onCellClicked() {
+      console.log(isProcessing);
+  if (isProcessing) {
+    return;
+  }
+
+  var row = this.getAttribute('data-row');
+  var col = this.getAttribute('data-col');
+  var value = board[row][col];
+  console.log(firstCard);
+
+  if (firstCard === null) {
+    // This is the first card that the user clicked on
+    var image = document.createElement("img");
+    image.setAttribute("src", value);
+    this.innerHTML = "";
+    this.classList.add('reveal');
+    //this.classList.remove('hidden');
+    this.appendChild(image);
+    firstCard = this;
+  } else {
+    // This is the second card that the user clicked on
+    var image = document.createElement("img");
+    image.setAttribute("src", value);
+    this.innerHTML = "";
+    this.classList.add('reveal');
+    //this.classList.remove('hidden');
+    this.appendChild(image);
+    if (firstCard.innerHTML === this.innerHTML) {
+      // The user found a pair
+      numberOfPairsFound++;
+      firstCard.removeEventListener('click', onCellClicked);
+      this.removeEventListener('click', onCellClicked);
+      firstCard = null;
+      if (numberOfPairsFound === size * size / 2) {
+        alert('Congratulations! You won the game!');
+      }
+    } else {
+      // The user did not find a pair
+      isProcessing = true;
+      setTimeout(() => {
+        firstCard.innerHTML = '';
+        this.innerHTML = '';
+        firstCard.classList.remove('reveal');
+        this.classList.remove('reveal');
+        // firstCard.classList.add('hidden');
+        // this.classList.add('hidden');
+        firstCard = null;
+        isProcessing = false;
+      }, 1000);
+    }
+  }
+}
+   
+        initBoard();
+        renderBoard();
+    </script>
+</body>
+</html>
