@@ -1,0 +1,29 @@
+bits 32
+global start
+extern exit, printf, scanf
+import exit msvcrt.dll
+import printf msvcrt.dll
+import scanf msvcrt.dll
+segment  data use32 class=data
+	format  db "%d", 0
+	a dd 0
+	b dd 0
+	s dd 0
+segment  code use32 class=code
+	start:
+		push dword a
+		push dword format
+		call [scanf]
+		add esp, 8
+		push dword b
+		push dword format
+		call [scanf]
+		add esp, 8
+		ADD EAX, EBX
+		MOV [s], EAX
+		push dword [s]
+		push dword format
+		call [printf]
+		add esp, 8
+		push dword 0
+		call [exit]

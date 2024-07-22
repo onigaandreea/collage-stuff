@@ -1,0 +1,5 @@
+S->epsilon
+S->aS
+S->bA
+A->baA
+A->cd

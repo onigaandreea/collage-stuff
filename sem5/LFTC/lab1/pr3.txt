@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int s, n, i, num;
+    s = 0;
+    i = 0;
+    cout << "Cate numere se vor citi?";
+    cin >> n;
+    while (i < n){
+        cout << "Introduceti numarul ";
+        cin >> num;
+        s = s + num;
+        i = i + 1;
+    }
+    cout << "Suma este: " << s;
+
+    return 0;
+}

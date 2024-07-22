@@ -1,0 +1,7 @@
+bison -d tema6.y
+
+flex tema6.l
+
+gcc lex.yy.c tema6.tab.c -o a
+
+a.exe <ex1.cpp> out.txt

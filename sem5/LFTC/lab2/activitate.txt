@@ -1,0 +1,4 @@
+Stari: p, r, q
+Alfabet: a,b
+Tranzitii: p, a->r; p,b->q; r,a->p
+StariFinale: q

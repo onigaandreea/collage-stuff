@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    double raza, perim, arie;
+    cout << "Introduceti raza cercului: ";
+    cin >> raza;
+
+    perim = 2 * 3.1415 * raza;
+    arie = 3.1415 * raza * raza;
+
+    cout << "Perimetrul cercului este: " << perim << endl;
+    cout << "Aria cercului este: " << arie << endl;
+
+    return 0;
+}

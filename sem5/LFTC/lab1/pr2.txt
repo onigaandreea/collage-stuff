@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int a, b, r;
+    cout << "Introduceti doua numere naturale: ";
+    cin >> a;
+    cin >> b;
+    if (b > a) {
+        r = a;
+        a = b;
+        b = r;
+    }
+    while(a % b != 0){
+        r = a % b;
+        a = b;
+        b = r;
+    }
+    cout << "cmmdc este: " << b << endl;
+
+    return 0;
+}

@@ -1,0 +1,12 @@
+<automat_finit> ::= <multime_stari> <alfabet> <tranzitii> <multime_stari_finale>
+
+<multime_stari> ::= "Stari:" <stare> {"," <stare>} ";"
+<stare> ::= <caracter>+ //sir de caractere
+
+<alfabet> ::= "Alfabet:" <simbol> {"," <simbol>} ";"
+<simbol> ::= <caracter>
+
+<tranzitii> ::= "Tranzitii:" <tranzitie> {<tranzitie>} ";"
+<tranzitie> ::= <stare> "," <simbol> "->" <stare>
+
+<multime_stari_finale> ::= "StariFinale:" <stare> {"," <stare>} ";"
