@@ -1,0 +1,5 @@
+int = integral(@sin, 0, pi)
+rezT = NewtonCotes(@sin,0,pi,1000,'trapez')
+rezS = NewtonCotes(@sin,0,pi,1000,'simpson')
+rez3 = NewtonCotes(@sin,0,pi,1000,'simpson3/8')
+rezB = NewtonCotes(@sin,0,pi,1000,'boole')
