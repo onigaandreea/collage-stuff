@@ -1,0 +1,10 @@
+rootProject.name = 'appClientServer'
+include 'CompetitionModel'
+include 'CompetitionPersistence'
+include 'CompetitionServices'
+include 'CompetitionClient'
+include 'CompetitionNetworking'
+include 'CompetitionServer'
+include 'RestServices'
+include 'RestClient'
+

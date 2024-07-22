@@ -1,0 +1,65 @@
+syntax="proto3";
+
+option java_package = "org.example.protobuf";
+option java_outer_classname = "CompetitionProtobufs";
+
+message User{
+  int32 id = 1;
+  string name = 2;
+  string username = 3;
+  string password = 4;
+  int32 officeNo = 5;
+}
+
+message Child{
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+}
+
+message Task{
+  int32 id = 1;
+  string description = 2;
+  int32 ageCatStart = 3;
+  int32 ageCatEnd = 4;
+}
+
+message TaskDTO{
+  int32 id = 1;
+  string description = 2;
+  int32 ageCatStart = 3;
+  int32 ageCatEnd = 4;
+  int32 nochildren =5;
+}
+
+message Participation{
+  int32 id = 1;
+  Child child = 2;
+  Task task = 3;
+}
+
+message Request{
+  enum Type { Unknown=0; Login=1; Logout=2; Get_participants=3; Add_participation=4; Update=5; Add_child=6; Find_last_child=7; Get_tasks=8;}
+  // Identifies witch request is filled in.
+  Type type=1;
+  //One of the following will be filled in, depending on the type.
+  oneof payload{
+    User user = 2;
+    Participation participation = 3;
+    Child child = 4;
+    Task task = 5;
+  }
+}
+
+message Response{
+  enum Type { Unknown=0; Login=1; Logout=2; Get_participants=3; Add_participation=4; Update=5; Add_child=6; Find_last_child=7;Ok=8; Error=9;Get_tasks=10;}
+  // Identifies witch request is filled in.
+  Type type=1;
+  //One of the following will be filled in, depending on the type.
+  string error=2;
+  repeated Child children = 3;
+  repeated TaskDTO tasks =4;
+  User user =5;
+  Child child = 6;
+  Participation participation = 7;
+}

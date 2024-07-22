@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gui.Controller">
+   <children>
+      <TableView fx:id="tasksTableView" layoutX="28.0" layoutY="28.0" prefHeight="237.0" prefWidth="302.0">
+        <columns>
+          <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="description" />
+          <TableColumn fx:id="minAgeColumn" prefWidth="75.0" text="minimal age" />
+            <TableColumn fx:id="maxAgeColumn" prefWidth="75.0" text="maximal age" />
+            <TableColumn fx:id="noParticipantsColumn" prefWidth="75.0" text="noParticipants" />
+        </columns>
+      </TableView>
+      <TableView fx:id="participantsTableView" layoutX="368.0" layoutY="28.0" prefHeight="238.0" prefWidth="194.0">
+        <columns>
+          <TableColumn fx:id="nameTableColumn" prefWidth="121.79998779296875" text="name" />
+          <TableColumn fx:id="ageTableColumn" prefWidth="70.99996948242188" text="age" />
+        </columns>
+      </TableView>
+      <Button layoutX="28.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleAddParticipation" prefHeight="26.0" prefWidth="302.0" text="Add Participant" />
+      <Button layoutX="367.0" layoutY="278.0" mnemonicParsing="false" onAction="#handleSearch" prefHeight="26.0" prefWidth="194.0" text="Search Participants" />
+      <TextField fx:id="nameTxt" layoutX="28.0" layoutY="279.0" prefHeight="26.0" prefWidth="302.0" promptText="name" />
+      <TextField fx:id="ageTxt" layoutX="28.0" layoutY="317.0" prefHeight="26.0" prefWidth="302.0" promptText="age" />
+      <Button fx:id="signOutButton" layoutX="28.0" layoutY="460.0" mnemonicParsing="false" onAction="#signOut" text="SignOut" />
+   </children>
+</AnchorPane>
