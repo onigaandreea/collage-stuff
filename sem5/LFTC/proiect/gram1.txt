@@ -1,0 +1,29 @@
+S->B N M
+B->b ; F
+F->eps
+F->B
+N->u n s ;
+M->i m ( ) { I r z ; }
+I->D L
+D->T V ;
+T->i
+T->d
+V->a G
+G->eps
+G->, V
+L->C ; H
+C->R
+C->W
+C->A
+H->eps
+H->L
+R->c a
+W->o a
+A->a = E
+E->a J
+J->eps
+J->O E
+O->+
+O->-
+O->*
+O->/

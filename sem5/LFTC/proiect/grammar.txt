@@ -1,0 +1,5 @@
+S->b L e
+S->i
+L->S Q
+Q->eps
+Q->p L

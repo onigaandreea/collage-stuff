@@ -1,0 +1,10 @@
+S->b n m D C r z
+D->T L
+T->i
+T->d
+L->a
+C->I
+I->R
+I->A
+R->c a
+A->o a

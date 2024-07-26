@@ -1,7 +1,7 @@
 import numpy as np
 
 from primalSimplex import solve as solve_primal_simplex
-from aux import solve as solve_auxiliary_lp
+from auxiliary import solve as solve_auxiliary_lp
 
 
 def verify_method(matrix):
